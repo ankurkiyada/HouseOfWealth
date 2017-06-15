@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "999323750415",
+    "firebase_url": "https://houseofwealth-4b607.firebaseio.com",
+    "project_id": "houseofwealth-4b607",
+    "storage_bucket": "houseofwealth-4b607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999323750415:android:9f7b12cb12070143",
+        "android_client_info": {
+          "package_name": "com.bst.stockahm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999323750415-a7kdafc5km17qnapri57q0kbslvtkpbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bst.stockahm",
+            "certificate_hash": "614df42ae86fff3e790db107101a64d9f5ec5ec5"
+          }
+        },
+        {
+          "client_id": "999323750415-40jt2tcf0s50crbul0j2fth4sqmulrq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1GxxVURga81yR7fUNK82Ms1TYzc1kUDg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999323750415-40jt2tcf0s50crbul0j2fth4sqmulrq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

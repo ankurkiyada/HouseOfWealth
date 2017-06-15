@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#3C5A99"
+    tools:context="com.bst.stockahm.Signup" >
+
+    		<LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="vertical">
+
+                    <EditText android:id="@+id/signUpUserName" 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:hint="@string/txtuName" 
+                        android:maxLength="10"
+                        android:maxLines="1" 
+                        android:layout_marginBottom="20dp"
+                        android:textColorHint="#ffffff"
+                        android:textColor="#ffffff" >
+                        
+                        <requestFocus />
+                    </EditText>
+
+                    <EditText android:id="@+id/signUpPassword" 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:hint="@string/txtpassword"
+                        android:inputType="textPassword" 
+                        android:maxLines="1" 
+                        android:layout_marginBottom="20dp"
+                        android:textColorHint="#ffffff"
+                        android:textColor="#ffffff" />
+
+                 
+                     <EditText android:id="@+id/etMobileNo" 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:hint="@string/txtMobile"
+                        android:maxLines="1" 
+                        android:layout_marginBottom="20dp"
+                        android:inputType="phone" 
+                        android:textColorHint="#ffffff"
+                        android:textColor="#ffffff" />
+                     
+                      <EditText android:id="@+id/etemail" 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:hint="@string/txtemail"
+                        android:inputType="textEmailAddress" 
+                        android:maxLines="1" 
+                        android:layout_marginBottom="20dp"
+                        android:textColorHint="#ffffff"
+                        android:textColor="#ffffff" />
+                      
+                       <EditText android:id="@+id/etcapital" 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:hint="@string/txtcapital"
+                        android:maxLines="1" android:singleLine="true"
+                        android:layout_marginBottom="20dp"
+                        android:textColorHint="#ffffff"
+                        android:textColor="#ffffff" />
+
+                    <Button android:id="@+id/email_sign_in_button" 
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent" 
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtSignup"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:background="#01c1cc" 
+                       android:onClick="onClickSignupButton"/>
+
+                </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">House Of Wealth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtSignup">Sign Up</string>
+    <string name="txtuName">User Name</string>
+    <string name="txtpassword">Password</string>
+    <string name="txtMobile">Mobile No</string>
+    <string name="txtemail">Email</string>
+    <string name="txtcapital">Capital</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="strSmartSchool">Smart School</string>
+    <string name="strAssignmentPage">Assignment Page</string>
+    <string name="strWelcome">Welcome</string>
+    <string name="stock_detail">Stock Details</string>
+    <string name="txtBack">Back</string>
+    <string name="txtCreationDt">Creation Date:</string>
+    <string name="txtCompanyName">Company Name:</string>
+    <string name="txtbuySell">Buy Price:</string>
+    <string name="txtSL">SL:</string>
+    <string name="txtExitPrice">Exit Price:</string>
+    <string name="txtExitDt">Exit Date:</string>
+    <string name="txtPercentageGain">Percentage Gain:</string>
+    <string name="txtStatus">Status:</string>
+    <string name="txtTredingSL">Treding SL:</string>
+    <string name="txtCurrentPrice">Current Price:</string>
+    <string name="txtUpdatedDt">Updated Date:</string>
+    <string name="na">NA</string>
+    <string name="register">New to HOW? Register here</string>
+    <string name="txtAdd">Add</string>
+    <string name="companyName">Company Name</string>
+    <string name="buySell">Buy Price</string>
+    <string name="sl">SL</string>
+    <string name="addNew">Add New</string>
+    <string name="updateStock">Update</string>
+    <string name="txt_alert">Please upgrade to PRO version!</string>
+    <string name="txt_gopro">Go Premium</string>
+    <string name="txt_aboutus">About Us</string>
+    <string name="viewOpen">View Open Status</string>
+    <string name="viewAllStock">View All Stock</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Account</item>
+        <item>About Us</item>
+        <item>Go Premium</item>
+        <item>Logout</item>
+        <item>Admin</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_message</item>
+        <item>@drawable/ic_user</item>
+        <item>@drawable/ic_attendance</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_poweroff</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon"> Item Icon</string>
+    <string name="txt_lunch"> Today\'s Lunch Item</string>
+    <string name="txt_notice"> Notice</string>
+    <string name="txt_homework"> Today\'s Homework</string>
+    <string name="txt_reminder"> Reminder</string>
+    <string name="txt_Todo"> Todo\'s</string>
+    <string name="txt_send_leave_btn">Send</string>
+
+    <string name="title_activity_stock_details">Stock Details</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_add_stock_details">Add Stock Details</string>
+    <string name="title_activity_update_stock_details">Update Stock Details</string>
+    <string name="title_activity_view_all">View All Activity</string>
+    <string name="title_activity_view_open">View Open Activity</string>
+
+    <string-array name="buysell_array">
+        <item>Buy</item>
+        <item>Sell</item>
+    </string-array>
+
+
+</resources>
